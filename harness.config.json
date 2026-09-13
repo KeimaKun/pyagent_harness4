@@ -1,0 +1,23 @@
+{
+  "server_base_url": "http://127.0.0.1:8000/v1",
+  "api_key": "not-needed",
+  "model": null,
+  "max_context_tokens": null,
+  "fallback_context_tokens": 4096,
+  "reserved_completion_tokens": 512,
+  "temperature": 0.2,
+  "max_steps": 25,
+  "command_timeout_sec": 120,
+  "request_timeout_sec": 180,
+  "chars_per_token": 3.3,
+  "tool_output_char_limit": 2500,
+  "confirm_tools": ["write_file", "edit_file", "delete_file", "run_command", "run_python"],
+  "auto_approve": false,
+  "path_to_ml_env_python": null,
+  "memory_top_k": 5,
+  "memory_embedding_dim": 256,
+  "memory_chunk_chars": 1200,
+  "memory_auto_recall": true,
+  "repeat_warn_limit": 3,
+  "repeat_abort_limit": 6
+}
